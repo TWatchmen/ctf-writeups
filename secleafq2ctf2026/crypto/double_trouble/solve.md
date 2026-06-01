@@ -6,7 +6,8 @@
 64664d3245776148523166513d3d0a
 -> RnJwWXJuc3swYTNfeTRsM2VfajRmYWdfM2EwaHR1fQ==
 
-2. decode base64 -> FrpYrns{0a3_y4l3e_j4fag_3a0htu}
+2. echo RnJwWXJuc3swYTNfeTRsM2VfajRmYWdfM2EwaHR1fQ== | base64 --decode 
+3. -> FrpYrns{0a3_y4l3e_j4fag_3a0htu}
 3. ROT13 -> SecLeaf{0n3_l4y3r_w4snt_3n0ugh}
 
 #### Flag: SecLeaf{0n3_l4y3r_w4snt_3n0ugh}
